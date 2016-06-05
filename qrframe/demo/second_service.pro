@@ -7,8 +7,8 @@ DEFINES += SECOND_SERVICE_LIBRARY
 TARGET = frame_demo_second_service
 
 # 
-include($$PWD/../../../qters_config.pri)
-include($$PWD/../qrframe_demo_dependency.pri)
+include($$PWD/../../qters_config.pri)
+include($$PWD/qrframe_demo_dependency.pri)
 DESTDIR = $$QTERS_DESTDIR/services
 DLLDESTDIR = $$QTERS_DLLDESTDIR/services
 

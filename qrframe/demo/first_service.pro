@@ -7,10 +7,10 @@ DEFINES += FIRST_SERVICE_LIBRARY
 TARGET = frame_demo_first_service
 
 # 
-include($$PWD/../../../qters_config.pri)
-include($$PWD/../qrframe_demo_dependency.pri)
+include($$PWD/../../qters_config.pri)
+include($$PWD/qrframe_demo_dependency.pri)
 DESTDIR = $$QTERS_DESTDIR/services
-DLLDESTDIR = $$QTERS_DLLDESTDIR/services
+DLLDESTDIR = $$QTERS_DLLDESTDIR/s ervices
 
 # current project dependency
 QR_FRAME_DEMO_FIRSTSERVICE_ROOT = $$QR_FRAME_ROOT/demo/services/first_service

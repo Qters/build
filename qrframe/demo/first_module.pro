@@ -7,8 +7,8 @@ DEFINES += FIRST_MODULE_LIBRARY
 TARGET = frame_demo_first_module
 
 #
-include($$PWD/../../../qters_config.pri)
-include($$PWD/../qrframe_demo_dependency.pri)
+include($$PWD/../../qters_config.pri)
+include($$PWD/qrframe_demo_dependency.pri)
 DESTDIR = $$QTERS_DESTDIR/modules
 DLLDESTDIR = $$QTERS_DLLDESTDIR/modules
 
