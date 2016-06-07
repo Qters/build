@@ -9,8 +9,8 @@ TARGET = frame_demo_second_service
 # 
 include($$PWD/../../../qters_config.pri)
 include($$PWD/qrframe_demo_dependency.pri)
-DESTDIR = $$QTERS_DESTDIR/demo/frame/simple/services
-DLLDESTDIR = $$QTERS_DLLDESTDIR/demo/frame/simple/services
+DESTDIR = $$QTERS_DESTDIR/demo/frame_simple/services
+DLLDESTDIR = $$QTERS_DLLDESTDIR/demo/frame_simple/services
 
 # current project dependency
 QR_FRAME_SIMPLEDEMO_SECONDSERVICE_ROOT = $$QR_DEMO_ROOT/qrframe/simple/services/second_service

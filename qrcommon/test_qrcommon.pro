@@ -3,7 +3,7 @@ CONFIG   -= app_bundle
 
 QT += testlib
 
-TARGET = QrCommonTest
+TARGET = test_qrcommon
 
 include($$PWD/../qters_config.pri)
 

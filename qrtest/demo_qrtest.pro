@@ -8,8 +8,8 @@ TARGET = demo_qrtest
 QR_TEST_PRO = $$PWD/../source
 
 include($$PWD/../qters_config.pri)
-DESTDIR = $$QTERS_DESTDIR/demo/
-DLLDESTDIR = $$QTERS_DLLDESTDIR/demo/
+DESTDIR = $$QTERS_DESTDIR/
+DLLDESTDIR = $$QTERS_DLLDESTDIR/
 
 CONFIG(debug, debug|release) {
     LIBS += \

@@ -25,7 +25,7 @@ HEADERS += \
     $$QR_FRAME_SOURCE_ROOT/include/core/qrpluginsloader.h \
     $$QR_FRAME_SOURCE_ROOT/include/db/qrtblloadinfo.h \
     $$QR_FRAME_SOURCE_ROOT/include/db/qrtblloadtype.h \
-    $$QR_FRAME_SOURCE_ROOT/include/db/qrdblocal.h \
+    $$QR_FRAME_SOURCE_ROOT/include/db/qrframedb.h \
     $$QR_FRAME_SOURCE_ROOT/include/db/qrtblframeconfig.h \
 
 SOURCES += \
@@ -35,5 +35,5 @@ SOURCES += \
     $$QR_FRAME_SOURCE_ROOT/src/core/qrpluginsloader.cpp \
     $$QR_FRAME_SOURCE_ROOT/src/db/qrtblloadinfo.cpp \
     $$QR_FRAME_SOURCE_ROOT/src/db/qrtblloadtype.cpp \
-    $$QR_FRAME_SOURCE_ROOT/src/db/qrdblocal.cpp \
+    $$QR_FRAME_SOURCE_ROOT/src/db/qrframedb.cpp \
     $$QR_FRAME_SOURCE_ROOT/src/db/qrtblframeconfig.cpp \

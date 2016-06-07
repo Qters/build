@@ -3,7 +3,7 @@ CONFIG   -= app_bundle
 
 QT += testlib
 
-TARGET = QrFrameTest
+TARGET = test_qrframe
 
 include($$PWD/../qters_config.pri)
 include($$PWD/frame_dependency.pri)

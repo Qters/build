@@ -3,7 +3,7 @@ CONFIG   -= app_bundle
 
 QT += testlib sql
 
-TARGET = QrOrmTest
+TARGET = test_qrorm
 
 include($$PWD/../qters_config.pri)
 
