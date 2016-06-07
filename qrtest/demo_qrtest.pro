@@ -3,7 +3,7 @@ CONFIG   -= app_bundle
 
 QT += testlib
 
-TARGET = QrTestDemo
+TARGET = demo_qrtest
 
 QR_TEST_PRO = $$PWD/../source
 
