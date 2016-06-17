@@ -4,7 +4,7 @@ TARGET = demo_frame_simple
 TEMPLATE = app
 
 include($$PWD/../../../qters_config.pri)
-include($$PWD/qrframe_demo_dependency.pri)
+include($$PWD/../qrframe_demo_dependency.pri)
 
 # current project dependency
 QR_FRAME_SIMPLEDEMO_MAIN_ROOT = $$QR_DEMO_ROOT/qrframe/simple/simple
@@ -14,7 +14,7 @@ INCLUDEPATH += \
 
 SOURCES += \
     $$QR_FRAME_SIMPLEDEMO_MAIN_ROOT/src/main.cpp \
-    $$QR_FRAME_SIMPLEDEMO_MAIN_ROOT/src/demomainwindow.cpp
+    $$QR_FRAME_SIMPLEDEMO_MAIN_ROOT/src/framesimplemainwindow.cpp
 
 HEADERS  += \
-    $$QR_FRAME_SIMPLEDEMO_MAIN_ROOT/include/demomainwindow.h
+    $$QR_FRAME_SIMPLEDEMO_MAIN_ROOT/include/framesimplemainwindow.h

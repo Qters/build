@@ -8,7 +8,7 @@ TARGET = frame_demo_second_service
 
 # 
 include($$PWD/../../../qters_config.pri)
-include($$PWD/qrframe_demo_dependency.pri)
+include($$PWD/../qrframe_demo_dependency.pri)
 DESTDIR = $$QTERS_DESTDIR/demo/frame_simple/services
 DLLDESTDIR = $$QTERS_DLLDESTDIR/demo/frame_simple/services
 
