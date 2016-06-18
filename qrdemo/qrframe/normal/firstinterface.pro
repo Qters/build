@@ -1,13 +1,17 @@
-QT       += core gui widgets
+QT       += core
 
-TARGET = demo_frame_normal
-TEMPLATE = app
+TEMPLATE = lib
 
+DEFINES += NORMAL_FIRSTIF_LIBRARY
+
+TARGET = frame_demo_normal_firstif
+
+# 
 include($$PWD/../../../qters_config.pri)
 include($$PWD/../qrframe_demo_dependency.pri)
 
 # current project dependency
-QR_FRAME_NORMALDEMO_MAIN_ROOT = $$QR_DEMO_ROOT/qrframe/normal/normal
+QR_FRAME_NORMALDEMO_FIRSTIF_ROOT = $$QR_DEMO_ROOT/qrframe/normal/firstif
 
 CONFIG(debug, debug|release) {
     LIBS += \
@@ -20,9 +24,10 @@ CONFIG(release, debug|release) {
 
 INCLUDEPATH += \
     $$QR_DEMO_ROOT/qrframe/normal/base/include \
-    $$QR_FRAME_NORMALDEMO_MAIN_ROOT/include \
-
-SOURCES += \
-    $$QR_FRAME_NORMALDEMO_MAIN_ROOT/src/main.cpp \
+    $$QR_FRAME_NORMALDEMO_FIRSTIF_ROOT/include \
 
 HEADERS  += \
+    $$QR_FRAME_NORMALDEMO_FIRSTIF_ROOT/qrfirstinterface.h
+
+SOURCES += \
+    $$QR_FRAME_NORMALDEMO_FIRSTIF_ROOT/qrfirstinterface.cpp
