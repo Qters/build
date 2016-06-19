@@ -9,6 +9,8 @@ TARGET = frame_demo_normal_firstif
 # 
 include($$PWD/../../../qters_config.pri)
 include($$PWD/../qrframe_demo_dependency.pri)
+DESTDIR = $$QTERS_DESTDIR/demo/frame_normal/services
+DLLDESTDIR = $$QTERS_DLLDESTDIR/demo/frame_normal/services
 
 # current project dependency
 QR_FRAME_NORMALDEMO_FIRSTIF_ROOT = $$QR_DEMO_ROOT/qrframe/normal/firstif
