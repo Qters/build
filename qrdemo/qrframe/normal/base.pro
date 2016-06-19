@@ -1,4 +1,4 @@
-QT       += core widgets
+QT       += core widgets sql
 
 TEMPLATE = lib
 
@@ -20,6 +20,7 @@ HEADERS  += \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/include/core/qrnormalbase_global.h \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/include/core/qrifworkspaceservice.h \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/include/configs/qrconfigconnecter.h \
+    $$QR_FRAME_NORMALDEMO_BASE_ROOT/include/configs/qrtblnavigation.h \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/include/configs/qrconfigconst.h \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/include/gui/qrnormalmainwindow.h \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/include/gui/qrframewindow.h \
@@ -35,6 +36,7 @@ HEADERS  += \
 SOURCES += \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/src/core/qrifworkspaceservice.cpp \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/src/configs/qrconfigconnecter.cpp \
+    $$QR_FRAME_NORMALDEMO_BASE_ROOT/src/configs/qrtblnavigation.cpp \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/src/gui/qrnormalmainwindow.cpp \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/src/gui/qrframewindow.cpp \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/src/gui/qrworkspace.cpp \
