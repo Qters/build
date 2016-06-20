@@ -18,7 +18,6 @@ INCLUDEPATH += \
 
 HEADERS  += \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/include/core/qrnormalbase_global.h \
-    $$QR_FRAME_NORMALDEMO_BASE_ROOT/include/core/qrifworkspaceservice.h \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/include/configs/qrtblnavigation.h \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/include/configs/qrnavigationbuttoncontainer.h \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/include/gui/qrnormalmainwindow.h \
@@ -33,7 +32,6 @@ HEADERS  += \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/include/gui/qrnavigationtabpageview.h \
 
 SOURCES += \
-    $$QR_FRAME_NORMALDEMO_BASE_ROOT/src/core/qrifworkspaceservice.cpp \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/src/configs/qrtblnavigation.cpp \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/src/configs/qrnavigationbuttoncontainer.cpp \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/src/gui/qrnormalmainwindow.cpp \
