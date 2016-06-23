@@ -19,6 +19,7 @@ INCLUDEPATH += \
 HEADERS  += \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/include/qrnormalbase_global.h \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/include/db/qrtblnavigation.h \
+    $$QR_FRAME_NORMALDEMO_BASE_ROOT/include/db/qrtblsystemtray.h \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/include/gui/qrnormalmainwindow.h \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/include/gui/qrframewindow.h \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/include/gui/qrworkspace.h \
@@ -29,9 +30,11 @@ HEADERS  += \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/include/gui/qrnavigationheader.h \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/include/gui/qrnavigationtabpage.h \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/include/gui/qrnavigationtabpageview.h \
+    $$QR_FRAME_NORMALDEMO_BASE_ROOT/include/gui/qrsystemtray.h \
 
 SOURCES += \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/src/db/qrtblnavigation.cpp \
+    $$QR_FRAME_NORMALDEMO_BASE_ROOT/src/db/qrtblsystemtray.cpp \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/src/gui/qrnormalmainwindow.cpp \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/src/gui/qrframewindow.cpp \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/src/gui/qrworkspace.cpp \
@@ -42,4 +45,5 @@ SOURCES += \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/src/gui/qrnavigationheader.cpp \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/src/gui/qrnavigationtabpage.cpp \
     $$QR_FRAME_NORMALDEMO_BASE_ROOT/src/gui/qrnavigationtabpageview.cpp \
+    $$QR_FRAME_NORMALDEMO_BASE_ROOT/src/gui/qrsystemtray.cpp \
 
