@@ -34,6 +34,7 @@ HEADERS  += \
     $$PROJECT_ROOT/include/gui/qrnavigationtabpage.h \
     $$PROJECT_ROOT/include/gui/qrnavigationtabpageview.h \
     $$PROJECT_ROOT/include/gui/qrsystemtray.h \
+    $$PROJECT_ROOT/include/gui/qrnavigationmodel.h \
 
 SOURCES += \
     $$PROJECT_ROOT/src/db/qrtblnavigation.cpp \
@@ -49,5 +50,6 @@ SOURCES += \
     $$PROJECT_ROOT/src/gui/qrnavigationtabpage.cpp \
     $$PROJECT_ROOT/src/gui/qrnavigationtabpageview.cpp \
     $$PROJECT_ROOT/src/gui/qrsystemtray.cpp \
+    $$PROJECT_ROOT/src/gui/qrnavigationmodel.cpp \
 
 
