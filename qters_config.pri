@@ -20,6 +20,7 @@ QR_TEST_ROOT = $$PWD/../QrTest
 QR_COMMON_ROOT = $$PWD/../QrCommon
 QR_ORM_ROOT = $$PWD/../QrOrm
 QR_FRAME_ROOT = $$PWD/../QrFrame
+QR_CHAOS_ROOT = $$QR_FRAME_ROOT/chaos
 QR_TOOL_ROOT = $$PWD/../QrTools
 QR_LOGGER_ROOT = $$PWD/../QrLogger
 QR_DEMO_ROOT = $$PWD/../QrDemo

@@ -10,5 +10,4 @@ SUBDIRS += \
     $$PWD/QrOrm.pro \
 #    $$PWD/QrTools.pro \
     $$PWD/QrFrame.pro \
-    $$PWD/QrDemo.pro \
 
