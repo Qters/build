@@ -29,6 +29,7 @@ HEADERS  += \
     $$PROJECT_ROOT/include/gui/qrstatusbar.h \
     $$PROJECT_ROOT/include/gui/qrframewindowsplitter.h \
     $$PROJECT_ROOT/include/gui/qrheader.h \
+    $$PROJECT_ROOT/include/gui/qrheadermenu.h \
     $$PROJECT_ROOT/include/gui/qrsystemtray.h \
     $$PROJECT_ROOT/include/gui/navigation/qrnavigation.h \
     $$PROJECT_ROOT/include/gui/navigation/qrnavigationheader.h \
@@ -45,6 +46,7 @@ SOURCES += \
     $$PROJECT_ROOT/src/gui/qrstatusbar.cpp \
     $$PROJECT_ROOT/src/gui/qrframewindowsplitter.cpp \
     $$PROJECT_ROOT/src/gui/qrheader.cpp \
+    $$PROJECT_ROOT/src/gui/qrheadermenu.cpp \
     $$PROJECT_ROOT/src/gui/qrsystemtray.cpp \
     $$PROJECT_ROOT/src/gui/navigation/qrnavigation.cpp \
     $$PROJECT_ROOT/src/gui/navigation/qrnavigationheader.cpp \
