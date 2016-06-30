@@ -4,7 +4,7 @@ CONFIG += ordered
 
 SUBDIRS += \
     $$PWD/QrLogger.pro \
-#    $$PWD/QrUpdater.pro \
+    $$PWD/QrUpdater.pro \
     $$PWD/QrTest.pro \
     $$PWD/QrCommon.pro \
     $$PWD/QrOrm.pro \

@@ -7,9 +7,6 @@ TARGET = test_qrorm
 
 include($$PWD/../qters_config.pri)
 
-QR_TEST_PRO = $$PWD/../../QrTest/source
-QR_ORM_PRO = $$PWD/../source
-
 CONFIG(debug, debug|release) {
     LIBS += \
         -L$$QTERS_DESTDIR -lQrTestd -lQrOrmd \
