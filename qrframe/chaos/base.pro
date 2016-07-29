@@ -21,9 +21,11 @@ INCLUDEPATH += \
 
 HEADERS  += \
     $$PROJECT_ROOT/include/qrchaosbase_global.h \
+    $$PROJECT_ROOT/include/qrchaosframer.h \
     $$PROJECT_ROOT/include/db/qrtblnavigation.h \
     $$PROJECT_ROOT/include/db/qrtblsystemtray.h \
     $$PROJECT_ROOT/include/gui/qrchaosmainwindow.h \
+    $$PROJECT_ROOT/include/gui/qrstyle.h \
     $$PROJECT_ROOT/include/gui/qrworkspace.h \
     $$PROJECT_ROOT/include/gui/qrstatusbar.h \
     $$PROJECT_ROOT/include/gui/qrsystemtray.h \
@@ -38,9 +40,11 @@ HEADERS  += \
     $$PROJECT_ROOT/include/gui/navigation/qrnavigationmodel.h \
 
 SOURCES += \
+    $$PROJECT_ROOT/src/gui/qrchaosframer.cpp \
     $$PROJECT_ROOT/src/db/qrtblnavigation.cpp \
     $$PROJECT_ROOT/src/db/qrtblsystemtray.cpp \
     $$PROJECT_ROOT/src/gui/qrchaosmainwindow.cpp \
+    $$PROJECT_ROOT/src/gui/qrstyle.cpp \
     $$PROJECT_ROOT/src/gui/qrworkspace.cpp \
     $$PROJECT_ROOT/src/gui/qrstatusbar.cpp \
     $$PROJECT_ROOT/src/gui/qrsystemtray.cpp \
