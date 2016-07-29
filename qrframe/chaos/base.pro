@@ -54,4 +54,5 @@ SOURCES += \
     $$PROJECT_ROOT/src/gui/navigation/qrnavigationtabpageview.cpp \
     $$PROJECT_ROOT/src/gui/navigation/qrnavigationmodel.cpp \
 
-
+RESOURCES += \
+    $$QR_CHAOS_ROOT/resources/blue.qrc
