@@ -40,7 +40,7 @@ HEADERS  += \
     $$PROJECT_ROOT/include/gui/navigation/qrnavigationmodel.h \
 
 SOURCES += \
-    $$PROJECT_ROOT/src/gui/qrchaosframer.cpp \
+    $$PROJECT_ROOT/src/qrchaosframer.cpp \
     $$PROJECT_ROOT/src/db/qrtblnavigation.cpp \
     $$PROJECT_ROOT/src/db/qrtblsystemtray.cpp \
     $$PROJECT_ROOT/src/gui/qrchaosmainwindow.cpp \
