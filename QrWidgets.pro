@@ -4,5 +4,5 @@ CONFIG += ordered
 
 SUBDIRS += \
     $$PWD/qrwidgets/source.pro \
-    $$PWD/qrwidgets/demo.pro \
+    $$PWD/qrwidgets/demo_qrwidgets.pro \
 
