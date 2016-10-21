@@ -9,5 +9,6 @@ SUBDIRS += \
     $$PWD/QrCommon.pro \
     $$PWD/QrOrm.pro \
 #    $$PWD/QrTools.pro \
-    $$PWD/QrFrame.pro \
     $$PWD/QrWidgets.pro \
+    $$PWD/QrFrame.pro \
+    $$PWD/QrChaos.pro \
