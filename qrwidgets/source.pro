@@ -17,7 +17,7 @@ INCLUDEPATH += \
 HEADERS += \
     $$QR_WIDGETS_SOURCE_ROOT/include/qrwidgets_global.h \
     $$QR_WIDGETS_SOURCE_ROOT/include/qrtoast.h \
-    $$QR_WIDGETS_SOURCE_ROOT/include/qrclicklabel.h \
+    $$QR_WIDGETS_SOURCE_ROOT/include/qrlabel.h \
     $$QR_WIDGETS_SOURCE_ROOT/include/qreditablelabel.h \
     $$QR_WIDGETS_SOURCE_ROOT/include/qrwaitingspinnerwidget.h \
     $$QR_WIDGETS_SOURCE_ROOT/include/emailinputter/qremailinputter.h \
@@ -27,7 +27,7 @@ HEADERS += \
 
 SOURCES += \
     $$QR_WIDGETS_SOURCE_ROOT/src/qrtoast.cpp \
-    $$QR_WIDGETS_SOURCE_ROOT/src/qrclicklabel.cpp \
+    $$QR_WIDGETS_SOURCE_ROOT/src/qrlabel.cpp \
     $$QR_WIDGETS_SOURCE_ROOT/src/qreditablelabel.cpp \
     $$QR_WIDGETS_SOURCE_ROOT/src/qrwaitingspinnerwidget.cpp \
     $$QR_WIDGETS_SOURCE_ROOT/src/emailinputter/qremailinputter.cpp \
