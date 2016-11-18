@@ -28,6 +28,8 @@ INCLUDEPATH += \
     $$QR_CHAOS_ROOT/source/include \
     $$PROJECT_ROOT/include \
 
+HEADERS += \
+
 SOURCES += \
     $$PROJECT_ROOT/src/main.cpp \
 

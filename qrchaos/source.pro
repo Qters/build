@@ -38,6 +38,7 @@ HEADERS  += \
     $$PROJECT_ROOT/include/gui/navigation/qrnavigationtabpage.h \
     $$PROJECT_ROOT/include/gui/navigation/qrnavigationtabpageview.h \
     $$PROJECT_ROOT/include/gui/navigation/qrnavigationmodel.h \
+    $$PROJECT_ROOT/include/qrchaosapplication.h
 
 SOURCES += \
     $$PROJECT_ROOT/src/qrchaosframer.cpp \
@@ -57,4 +58,5 @@ SOURCES += \
     $$PROJECT_ROOT/src/gui/navigation/qrnavigationtabpage.cpp \
     $$PROJECT_ROOT/src/gui/navigation/qrnavigationtabpageview.cpp \
     $$PROJECT_ROOT/src/gui/navigation/qrnavigationmodel.cpp \
+    $$PROJECT_ROOT/src/qrchaosapplication.cpp
 
