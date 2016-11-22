@@ -31,6 +31,7 @@ HEADERS  += \
     $$PROJECT_ROOT/include/gui/qrworkspacewidget.h \
     $$PROJECT_ROOT/include/gui/qrstatusbar.h \
     $$PROJECT_ROOT/include/gui/qrsystemtray.h \
+    $$PROJECT_ROOT/include/gui/qrworkspacewidget.h \
     $$PROJECT_ROOT/include/gui/framewindow/qrframewindow.h \
     $$PROJECT_ROOT/include/gui/framewindow/qrframewindowsplitter.h \
     $$PROJECT_ROOT/include/gui/header/qrheader.h \
@@ -40,6 +41,7 @@ HEADERS  += \
     $$PROJECT_ROOT/include/gui/navigation/qrnavigationtabpage.h \
     $$PROJECT_ROOT/include/gui/navigation/qrnavigationtabpageview.h \
     $$PROJECT_ROOT/include/gui/navigation/qrnavigationmodel.h \
+    $$PROJECT_ROOT/include/qrchaosapplication.h
 
 SOURCES += \
     $$PROJECT_ROOT/src/qrchaosapplication.cpp \
@@ -52,6 +54,7 @@ SOURCES += \
     $$PROJECT_ROOT/src/gui/qrworkspacewidget.cpp \
     $$PROJECT_ROOT/src/gui/qrstatusbar.cpp \
     $$PROJECT_ROOT/src/gui/qrsystemtray.cpp \
+    $$PROJECT_ROOT/src/gui/qrworkspacewidget.cpp \
     $$PROJECT_ROOT/src/gui/framewindow/qrframewindow.cpp \
     $$PROJECT_ROOT/src/gui/framewindow/qrframewindowsplitter.cpp \
     $$PROJECT_ROOT/src/gui/header/qrheader.cpp \
@@ -61,4 +64,5 @@ SOURCES += \
     $$PROJECT_ROOT/src/gui/navigation/qrnavigationtabpage.cpp \
     $$PROJECT_ROOT/src/gui/navigation/qrnavigationtabpageview.cpp \
     $$PROJECT_ROOT/src/gui/navigation/qrnavigationmodel.cpp \
+    $$PROJECT_ROOT/src/qrchaosapplication.cpp
 
