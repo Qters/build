@@ -1,5 +1,4 @@
-QT       -= gui
-QT       += network
+QT       += gui widgets network
 
 TARGET = QrCommon
 
@@ -11,6 +10,7 @@ include($$PWD/../qters_config.pri)
 
 INCLUDEPATH += \
     $$QR_COMMON_SOURCE_ROOT/include \
+    $$QR_COMMON_SOURCE_ROOT/include/multilanguage \
     $$QR_COMMON_SOURCE_ROOT/inl \
 
 SOURCES += \
@@ -21,6 +21,7 @@ SOURCES += \
     $$QR_COMMON_SOURCE_ROOT/src/singleton/qrifsingleton.cpp \
     $$QR_COMMON_SOURCE_ROOT/src/singleton/qrsingletoncontainer.cpp \
     $$QR_COMMON_SOURCE_ROOT/src/auxiliary/qrfiler.cpp \
+    $$QR_COMMON_SOURCE_ROOT/src/multilanguage/qrlanguager.cpp \
     $$QR_COMMON_SOURCE_ROOT/inl/auxiliary/qrcontainer.inl \
     $$QR_COMMON_SOURCE_ROOT/inl/auxiliary/qrconverter.inl
 
@@ -38,3 +39,5 @@ HEADERS += \
     $$QR_COMMON_SOURCE_ROOT/include/auxiliary/qrispointer.h \
     $$QR_COMMON_SOURCE_ROOT/include/auxiliary/qrconverter.h \
     $$QR_COMMON_SOURCE_ROOT/include/auxiliary/qrcontainer.h \
+    $$QR_COMMON_SOURCE_ROOT/include/multilanguage/qrlanguager.h \
+    $$QR_COMMON_SOURCE_ROOT/include/multilanguage/qrtranslator.h \

@@ -8,6 +8,7 @@ TEMPLATE = lib
 TARGET = QrWidgets
 
 include($$PWD/../qters_config.pri)
+include($$PWD/widgets_dependency.pri)
 
 INCLUDEPATH += \
     $$QR_COMMON_SOURCE_ROOT/include \

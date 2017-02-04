@@ -7,6 +7,7 @@ TEMPLATE = app
 TARGET = demo_qrwidgets
 
 include($$PWD/../qters_config.pri)
+include($$PWD/widgets_dependency.pri)
 
 DESTDIR = $$QTERS_DESTDIR/
 DLLDESTDIR = $$QTERS_DLLDESTDIR/
