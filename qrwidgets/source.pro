@@ -26,6 +26,8 @@ HEADERS += \
     $$QR_WIDGETS_SOURCE_ROOT/include/emailinputter/qrmailboxblock.h \
     $$QR_WIDGETS_SOURCE_ROOT/include/emailinputter/qrmailboxfilterproxymodel.h \
     $$QR_WIDGETS_SOURCE_ROOT/include/layout/qrqueuelayout.h \
+    $$QR_WIDGETS_SOURCE_ROOT/include/titlebar/qrtitlebar.h \
+    $$QR_WIDGETS_SOURCE_ROOT/include/titlebar/qrshaderdelegate.h \
     $$QR_WIDGETS_SOURCE_ROOT/include/qrfilterlist.h
 
 SOURCES += \
@@ -38,5 +40,7 @@ SOURCES += \
     $$QR_WIDGETS_SOURCE_ROOT/src/emailinputter/qrmailboxblock.cpp \
     $$QR_WIDGETS_SOURCE_ROOT/src/emailinputter/qrmailboxfilterproxymodel.cpp \
     $$QR_WIDGETS_SOURCE_ROOT/src/layout/qrqueuelayout.cpp \
+    $$QR_WIDGETS_SOURCE_ROOT/src/titlebar/qrtitlebar.cpp \
+    $$QR_WIDGETS_SOURCE_ROOT/src/titlebar/qrshaderdelegate.cpp \
     $$QR_WIDGETS_SOURCE_ROOT/src/qrfilterlist.cpp
 

@@ -37,6 +37,7 @@ SOURCES += \
     $$QR_WIDGETS_DEMO_ROOT/layout/queuelayout/queuecontrolwidget.cpp \
     $$QR_WIDGETS_DEMO_ROOT/layout/queuelayout/queueitem.cpp \
     $$QR_WIDGETS_DEMO_ROOT/layout/queuelayout/queuewidget.cpp \
+    $$QR_WIDGETS_DEMO_ROOT/titlebar/qrtitlebardemo.cpp
 
 HEADERS  += \
     $$QR_WIDGETS_DEMO_ROOT/qrwidgetdemo.h \
@@ -47,6 +48,7 @@ HEADERS  += \
     $$QR_WIDGETS_DEMO_ROOT/layout/queuelayout/queuecontrolwidget.h \
     $$QR_WIDGETS_DEMO_ROOT/layout/queuelayout/queueitem.h \
     $$QR_WIDGETS_DEMO_ROOT/layout/queuelayout/queuewidget.h \
+    $$QR_WIDGETS_DEMO_ROOT/titlebar/qrtitlebardemo.h
 
 FORMS    += \
     $$QR_WIDGETS_DEMO_ROOT/qrwidgetdemo.ui \
@@ -55,5 +57,6 @@ FORMS    += \
     $$QR_WIDGETS_DEMO_ROOT/waitingspinner/waitingspinnerwidget.ui \
     $$QR_WIDGETS_DEMO_ROOT/editablelabel/editablelabelwidget.ui \
     $$QR_WIDGETS_DEMO_ROOT/layout/queuelayout/queuecontrolwidget.ui \
+    $$QR_WIDGETS_DEMO_ROOT/titlebar/qrtitlebardemo.ui
 
 
