@@ -28,7 +28,10 @@ HEADERS += \
     $$QR_WIDGETS_SOURCE_ROOT/include/layout/qrqueuelayout.h \
     $$QR_WIDGETS_SOURCE_ROOT/include/titlebar/qrtitlebar.h \
     $$QR_WIDGETS_SOURCE_ROOT/include/titlebar/qrshaderdelegate.h \
-    $$QR_WIDGETS_SOURCE_ROOT/include/qrfilterlist.h
+    $$QR_WIDGETS_SOURCE_ROOT/include/qrfilterlist.h \
+    $$QR_WIDGETS_SOURCE_ROOT/include/titlebar/qrmovable.h \
+    $$QR_WIDGETS_SOURCE_ROOT/include/chat/qrmsgbubble.h \
+    $$QR_WIDGETS_SOURCE_ROOT/include/chat/qrchatmessage.h
 
 SOURCES += \
     $$QR_WIDGETS_SOURCE_ROOT/src/qrtoast.cpp \
@@ -42,5 +45,11 @@ SOURCES += \
     $$QR_WIDGETS_SOURCE_ROOT/src/layout/qrqueuelayout.cpp \
     $$QR_WIDGETS_SOURCE_ROOT/src/titlebar/qrtitlebar.cpp \
     $$QR_WIDGETS_SOURCE_ROOT/src/titlebar/qrshaderdelegate.cpp \
-    $$QR_WIDGETS_SOURCE_ROOT/src/qrfilterlist.cpp
+    $$QR_WIDGETS_SOURCE_ROOT/src/qrfilterlist.cpp \
+    $$QR_WIDGETS_SOURCE_ROOT/src/titlebar/qrmovable.cpp \
+    $$QR_WIDGETS_SOURCE_ROOT/src/chat/qrmsgbubble.cpp \
+    $$QR_WIDGETS_SOURCE_ROOT/src/chat/qrchatmessage.cpp
+
+FORMS    += \
+    $$QR_WIDGETS_SOURCE_ROOT/ui/chat/qrchatmessage.ui
 
