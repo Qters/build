@@ -46,6 +46,10 @@ SOURCES += \
     $$QR_WIDGETS_DEMO_ROOT/contact/contactpage.cpp \
     $$QR_WIDGETS_DEMO_ROOT/contact/contanctlistitem.cpp \
     $$QR_WIDGETS_DEMO_ROOT/chat/chatwidget.cpp \
+    $$QR_WIDGETS_DEMO_ROOT/listview/listcell.cpp \
+    $$QR_WIDGETS_DEMO_ROOT/listview/listcellinfo.cpp \
+    $$QR_WIDGETS_DEMO_ROOT/listview/listdelegate.cpp \
+    $$QR_WIDGETS_DEMO_ROOT/listview/listviewwidget.cpp \
 
 HEADERS  += \
     $$QR_WIDGETS_DEMO_ROOT/qrwidgetdemo.h \
@@ -66,6 +70,10 @@ HEADERS  += \
     $$QR_WIDGETS_DEMO_ROOT/contact/contactpage.h \
     $$QR_WIDGETS_DEMO_ROOT/contact/contanctlistitem.h \
     $$QR_WIDGETS_DEMO_ROOT/chat/chatwidget.h \
+    $$QR_WIDGETS_DEMO_ROOT/listview/listcell.h \
+    $$QR_WIDGETS_DEMO_ROOT/listview/listcellinfo.h \
+    $$QR_WIDGETS_DEMO_ROOT/listview/listdelegate.h \
+    $$QR_WIDGETS_DEMO_ROOT/listview/listviewwidget.h \
 
 FORMS    += \
     $$QR_WIDGETS_DEMO_ROOT/qrwidgetdemo.ui \
@@ -78,5 +86,8 @@ FORMS    += \
     $$QR_WIDGETS_DEMO_ROOT/contact/contactorwidget.ui \
     $$QR_WIDGETS_DEMO_ROOT/contact/contactpage.ui \
     $$QR_WIDGETS_DEMO_ROOT/chat/chatwidget.ui \
+    $$QR_WIDGETS_DEMO_ROOT/listview/listcell.ui \
+    $$QR_WIDGETS_DEMO_ROOT/listview/listcellinfo.ui \
+    $$QR_WIDGETS_DEMO_ROOT/listview/listviewwidget.ui \
 
 

@@ -31,7 +31,9 @@ HEADERS += \
     $$QR_WIDGETS_SOURCE_ROOT/include/qrfilterlist.h \
     $$QR_WIDGETS_SOURCE_ROOT/include/titlebar/qrmovable.h \
     $$QR_WIDGETS_SOURCE_ROOT/include/chat/qrmsgbubble.h \
-    $$QR_WIDGETS_SOURCE_ROOT/include/chat/qrchatmessage.h
+    $$QR_WIDGETS_SOURCE_ROOT/include/chat/qrchatmessage.h \
+    $$QR_WIDGETS_SOURCE_ROOT/include/listview/qrlistview.h \
+    $$QR_WIDGETS_SOURCE_ROOT/include/listview/qrlistdelegate.h
 
 SOURCES += \
     $$QR_WIDGETS_SOURCE_ROOT/src/qrtoast.cpp \
@@ -48,7 +50,9 @@ SOURCES += \
     $$QR_WIDGETS_SOURCE_ROOT/src/qrfilterlist.cpp \
     $$QR_WIDGETS_SOURCE_ROOT/src/titlebar/qrmovable.cpp \
     $$QR_WIDGETS_SOURCE_ROOT/src/chat/qrmsgbubble.cpp \
-    $$QR_WIDGETS_SOURCE_ROOT/src/chat/qrchatmessage.cpp
+    $$QR_WIDGETS_SOURCE_ROOT/src/chat/qrchatmessage.cpp \
+    $$QR_WIDGETS_SOURCE_ROOT/src/listview/qrlistview.cpp \
+    $$QR_WIDGETS_SOURCE_ROOT/src/listview/qrlistdelegate.cpp
 
 FORMS    += \
     $$QR_WIDGETS_SOURCE_ROOT/ui/chat/qrchatmessage.ui

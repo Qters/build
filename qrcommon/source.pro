@@ -15,6 +15,7 @@ INCLUDEPATH += \
 
 SOURCES += \
     $$QR_COMMON_SOURCE_ROOT/src/qrrunguard.cpp \
+    $$QR_COMMON_SOURCE_ROOT/src/qrautorun.cpp \
     $$QR_COMMON_SOURCE_ROOT/src/qrnetworkchecker.cpp \
     $$QR_COMMON_SOURCE_ROOT/src/qrchinesetopinyin.cpp \
     $$QR_COMMON_SOURCE_ROOT/inl/singleton/qrsingleton.inl \
@@ -23,13 +24,14 @@ SOURCES += \
     $$QR_COMMON_SOURCE_ROOT/src/auxiliary/qrfiler.cpp \
     $$QR_COMMON_SOURCE_ROOT/src/multilanguage/qrlanguager.cpp \
     $$QR_COMMON_SOURCE_ROOT/inl/auxiliary/qrcontainer.inl \
-    $$QR_COMMON_SOURCE_ROOT/inl/auxiliary/qrconverter.inl
+    $$QR_COMMON_SOURCE_ROOT/inl/auxiliary/qrconverter.inl \
 
 HEADERS += \
     $$QR_COMMON_SOURCE_ROOT/include/qrcommon_global.h \
     $$QR_COMMON_SOURCE_ROOT/include/qrglobal.h \
     $$QR_COMMON_SOURCE_ROOT/include/qrutf8.h \
     $$QR_COMMON_SOURCE_ROOT/include/qrrunguard.h \
+    $$QR_COMMON_SOURCE_ROOT/include/qrautorun.h \
     $$QR_COMMON_SOURCE_ROOT/include/qrnetworkchecker.h \
     $$QR_COMMON_SOURCE_ROOT/include/qrchinesetopinyin.h \
     $$QR_COMMON_SOURCE_ROOT/include/singleton/qrifsingleton.h \
