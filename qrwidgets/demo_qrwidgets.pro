@@ -37,7 +37,15 @@ SOURCES += \
     $$QR_WIDGETS_DEMO_ROOT/layout/queuelayout/queuecontrolwidget.cpp \
     $$QR_WIDGETS_DEMO_ROOT/layout/queuelayout/queueitem.cpp \
     $$QR_WIDGETS_DEMO_ROOT/layout/queuelayout/queuewidget.cpp \
-    $$QR_WIDGETS_DEMO_ROOT/titlebar/qrtitlebardemo.cpp
+    $$QR_WIDGETS_DEMO_ROOT/titlebar/qrtitlebardemo.cpp \
+    $$QR_WIDGETS_DEMO_ROOT/contact/contactdata.cpp \
+    $$QR_WIDGETS_DEMO_ROOT/contact/contactlist.cpp \
+    $$QR_WIDGETS_DEMO_ROOT/contact/contactmodel.cpp \
+    $$QR_WIDGETS_DEMO_ROOT/contact/contactordelegate.cpp \
+    $$QR_WIDGETS_DEMO_ROOT/contact/contactorwidget.cpp \
+    $$QR_WIDGETS_DEMO_ROOT/contact/contactpage.cpp \
+    $$QR_WIDGETS_DEMO_ROOT/contact/contanctlistitem.cpp \
+    $$QR_WIDGETS_DEMO_ROOT/chat/chatwidget.cpp \
 
 HEADERS  += \
     $$QR_WIDGETS_DEMO_ROOT/qrwidgetdemo.h \
@@ -48,7 +56,16 @@ HEADERS  += \
     $$QR_WIDGETS_DEMO_ROOT/layout/queuelayout/queuecontrolwidget.h \
     $$QR_WIDGETS_DEMO_ROOT/layout/queuelayout/queueitem.h \
     $$QR_WIDGETS_DEMO_ROOT/layout/queuelayout/queuewidget.h \
-    $$QR_WIDGETS_DEMO_ROOT/titlebar/qrtitlebardemo.h
+    $$QR_WIDGETS_DEMO_ROOT/titlebar/qrtitlebardemo.h \
+    $$QR_WIDGETS_DEMO_ROOT/contact/contactdata.h \
+    $$QR_WIDGETS_DEMO_ROOT/contact/contactlist.h \
+    $$QR_WIDGETS_DEMO_ROOT/contact/contactmodel.h \
+    $$QR_WIDGETS_DEMO_ROOT/contact/contactordelegate.h \
+    $$QR_WIDGETS_DEMO_ROOT/contact/contactorrole.h \
+    $$QR_WIDGETS_DEMO_ROOT/contact/contactorwidget.h \
+    $$QR_WIDGETS_DEMO_ROOT/contact/contactpage.h \
+    $$QR_WIDGETS_DEMO_ROOT/contact/contanctlistitem.h \
+    $$QR_WIDGETS_DEMO_ROOT/chat/chatwidget.h \
 
 FORMS    += \
     $$QR_WIDGETS_DEMO_ROOT/qrwidgetdemo.ui \
@@ -57,6 +74,9 @@ FORMS    += \
     $$QR_WIDGETS_DEMO_ROOT/waitingspinner/waitingspinnerwidget.ui \
     $$QR_WIDGETS_DEMO_ROOT/editablelabel/editablelabelwidget.ui \
     $$QR_WIDGETS_DEMO_ROOT/layout/queuelayout/queuecontrolwidget.ui \
-    $$QR_WIDGETS_DEMO_ROOT/titlebar/qrtitlebardemo.ui
+    $$QR_WIDGETS_DEMO_ROOT/titlebar/qrtitlebardemo.ui \
+    $$QR_WIDGETS_DEMO_ROOT/contact/contactorwidget.ui \
+    $$QR_WIDGETS_DEMO_ROOT/contact/contactpage.ui \
+    $$QR_WIDGETS_DEMO_ROOT/chat/chatwidget.ui \
 
 
