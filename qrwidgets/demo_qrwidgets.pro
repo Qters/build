@@ -88,6 +88,5 @@ FORMS    += \
     $$QR_WIDGETS_DEMO_ROOT/chat/chatwidget.ui \
     $$QR_WIDGETS_DEMO_ROOT/listview/listcell.ui \
     $$QR_WIDGETS_DEMO_ROOT/listview/listcellinfo.ui \
-    $$QR_WIDGETS_DEMO_ROOT/listview/listviewwidget.ui \
 
 
