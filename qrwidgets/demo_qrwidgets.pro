@@ -57,8 +57,9 @@ SOURCES += \
     $$QR_WIDGETS_DEMO_ROOT/listview/ex/groupcell.cpp \
     $$QR_WIDGETS_DEMO_ROOT/listview/ex/frienddelegate.cpp \
     $$QR_WIDGETS_DEMO_ROOT/listview/ex/groupdelegate.cpp \
-    $$QR_WIDGETS_DEMO_ROOT/listview/ex/listviewexdelegate.cpp \
-    $$QR_WIDGETS_DEMO_ROOT/listview/ex/listviewex.cpp
+    $$QR_WIDGETS_DEMO_ROOT/listview/ex/listgroupdelegate.cpp \
+    $$QR_WIDGETS_DEMO_ROOT/listview/ex/listgroupview.cpp \
+    $$QR_WIDGETS_DEMO_ROOT/listview/ex/listgroupwidget.cpp
 
 HEADERS  += \
     $$QR_WIDGETS_DEMO_ROOT/qrwidgetdemo.h \
@@ -90,8 +91,9 @@ HEADERS  += \
     $$QR_WIDGETS_DEMO_ROOT/listview/ex/groupcell.h \
     $$QR_WIDGETS_DEMO_ROOT/listview/ex/frienddelegate.h \
     $$QR_WIDGETS_DEMO_ROOT/listview/ex/groupdelegate.h \
-    $$QR_WIDGETS_DEMO_ROOT/listview/ex/listviewexdelegate.h \
-    $$QR_WIDGETS_DEMO_ROOT/listview/ex/listviewex.h
+    $$QR_WIDGETS_DEMO_ROOT/listview/ex/listgroupdelegate.h \
+    $$QR_WIDGETS_DEMO_ROOT/listview/ex/listgroupview.h \
+    $$QR_WIDGETS_DEMO_ROOT/listview/ex/listgroupwidget.h
 
 FORMS    += \
     $$QR_WIDGETS_DEMO_ROOT/qrwidgetdemo.ui \
