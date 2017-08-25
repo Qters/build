@@ -50,6 +50,15 @@ SOURCES += \
     $$QR_WIDGETS_DEMO_ROOT/listview/listcellinfo.cpp \
     $$QR_WIDGETS_DEMO_ROOT/listview/listdelegate.cpp \
     $$QR_WIDGETS_DEMO_ROOT/listview/listviewwidget.cpp \
+    $$QR_WIDGETS_DEMO_ROOT/listview/ex/tablistviewwidget.cpp \
+    $$QR_WIDGETS_DEMO_ROOT/listview/ex/listviewexdemo.cpp \
+    $$QR_WIDGETS_DEMO_ROOT/listview/ex/listviewwithemptytips.cpp \
+    $$QR_WIDGETS_DEMO_ROOT/listview/ex/friendcell.cpp \
+    $$QR_WIDGETS_DEMO_ROOT/listview/ex/groupcell.cpp \
+    $$QR_WIDGETS_DEMO_ROOT/listview/ex/frienddelegate.cpp \
+    $$QR_WIDGETS_DEMO_ROOT/listview/ex/groupdelegate.cpp \
+    $$QR_WIDGETS_DEMO_ROOT/listview/ex/listviewexdelegate.cpp \
+    $$QR_WIDGETS_DEMO_ROOT/listview/ex/listviewex.cpp
 
 HEADERS  += \
     $$QR_WIDGETS_DEMO_ROOT/qrwidgetdemo.h \
@@ -74,6 +83,15 @@ HEADERS  += \
     $$QR_WIDGETS_DEMO_ROOT/listview/listcellinfo.h \
     $$QR_WIDGETS_DEMO_ROOT/listview/listdelegate.h \
     $$QR_WIDGETS_DEMO_ROOT/listview/listviewwidget.h \
+    $$QR_WIDGETS_DEMO_ROOT/listview/ex/tablistviewwidget.h \
+    $$QR_WIDGETS_DEMO_ROOT/listview/ex/listviewexdemo.h \
+    $$QR_WIDGETS_DEMO_ROOT/listview/ex/listviewwithemptytips.h \
+    $$QR_WIDGETS_DEMO_ROOT/listview/ex/friendcell.h \
+    $$QR_WIDGETS_DEMO_ROOT/listview/ex/groupcell.h \
+    $$QR_WIDGETS_DEMO_ROOT/listview/ex/frienddelegate.h \
+    $$QR_WIDGETS_DEMO_ROOT/listview/ex/groupdelegate.h \
+    $$QR_WIDGETS_DEMO_ROOT/listview/ex/listviewexdelegate.h \
+    $$QR_WIDGETS_DEMO_ROOT/listview/ex/listviewex.h
 
 FORMS    += \
     $$QR_WIDGETS_DEMO_ROOT/qrwidgetdemo.ui \
@@ -88,5 +106,10 @@ FORMS    += \
     $$QR_WIDGETS_DEMO_ROOT/chat/chatwidget.ui \
     $$QR_WIDGETS_DEMO_ROOT/listview/listcell.ui \
     $$QR_WIDGETS_DEMO_ROOT/listview/listcellinfo.ui \
+    $$QR_WIDGETS_DEMO_ROOT/listview/ex/tablistviewwidget.ui \
+    $$QR_WIDGETS_DEMO_ROOT/listview/ex/listviewexdemo.ui \
+    $$QR_WIDGETS_DEMO_ROOT/listview/ex/listviewwithemptytips.ui \
+    $$QR_WIDGETS_DEMO_ROOT/listview/ex/friendcell.ui \
+    $$QR_WIDGETS_DEMO_ROOT/listview/ex/groupcell.ui
 
 
