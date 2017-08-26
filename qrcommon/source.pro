@@ -22,12 +22,12 @@ SOURCES += \
     $$QR_COMMON_SOURCE_ROOT/src/singleton/qrsingletoncontainer.cpp \
     $$QR_COMMON_SOURCE_ROOT/src/auxiliary/qrfiler.cpp \
     $$QR_COMMON_SOURCE_ROOT/src/multilanguage/qrlanguager.cpp \
+    $$QR_COMMON_SOURCE_ROOT/src/qrthreadpool.cpp \
 
 SOURCES += \
     $$QR_COMMON_SOURCE_ROOT/inl/singleton/qrsingleton.inl \
     $$QR_COMMON_SOURCE_ROOT/inl/auxiliary/qrcontainer.inl \
     $$QR_COMMON_SOURCE_ROOT/inl/auxiliary/qrconverter.inl \
-    $$QR_COMMON_SOURCE_ROOT/inl/qrthreadpool.inl
 
 HEADERS += \
     $$QR_COMMON_SOURCE_ROOT/include/qrcommon_global.h \
