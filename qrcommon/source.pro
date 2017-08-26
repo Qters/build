@@ -18,13 +18,16 @@ SOURCES += \
     $$QR_COMMON_SOURCE_ROOT/src/qrautorun.cpp \
     $$QR_COMMON_SOURCE_ROOT/src/qrnetworkchecker.cpp \
     $$QR_COMMON_SOURCE_ROOT/src/qrchinesetopinyin.cpp \
-    $$QR_COMMON_SOURCE_ROOT/inl/singleton/qrsingleton.inl \
     $$QR_COMMON_SOURCE_ROOT/src/singleton/qrifsingleton.cpp \
     $$QR_COMMON_SOURCE_ROOT/src/singleton/qrsingletoncontainer.cpp \
     $$QR_COMMON_SOURCE_ROOT/src/auxiliary/qrfiler.cpp \
     $$QR_COMMON_SOURCE_ROOT/src/multilanguage/qrlanguager.cpp \
+
+SOURCES += \
+    $$QR_COMMON_SOURCE_ROOT/inl/singleton/qrsingleton.inl \
     $$QR_COMMON_SOURCE_ROOT/inl/auxiliary/qrcontainer.inl \
     $$QR_COMMON_SOURCE_ROOT/inl/auxiliary/qrconverter.inl \
+    $$QR_COMMON_SOURCE_ROOT/inl/qrthreadpool.inl
 
 HEADERS += \
     $$QR_COMMON_SOURCE_ROOT/include/qrcommon_global.h \
@@ -43,3 +46,4 @@ HEADERS += \
     $$QR_COMMON_SOURCE_ROOT/include/auxiliary/qrcontainer.h \
     $$QR_COMMON_SOURCE_ROOT/include/multilanguage/qrlanguager.h \
     $$QR_COMMON_SOURCE_ROOT/include/multilanguage/qrtranslator.h \
+    $$QR_COMMON_SOURCE_ROOT/include/qrthreadpool.h
