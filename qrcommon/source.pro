@@ -22,6 +22,8 @@ SOURCES += \
     $$QR_COMMON_SOURCE_ROOT/src/singleton/qrsingletoncontainer.cpp \
     $$QR_COMMON_SOURCE_ROOT/src/auxiliary/qrfiler.cpp \
     $$QR_COMMON_SOURCE_ROOT/src/multilanguage/qrlanguager.cpp \
+    $$QR_COMMON_SOURCE_ROOT/src/multilanguage/custom/qrcustomlanguagedicter.cpp \
+    $$QR_COMMON_SOURCE_ROOT/src/multilanguage/custom/qrcustomlanguagermanager.cpp \
     $$QR_COMMON_SOURCE_ROOT/src/qrthreadpool.cpp \
 
 SOURCES += \
@@ -46,4 +48,6 @@ HEADERS += \
     $$QR_COMMON_SOURCE_ROOT/include/auxiliary/qrcontainer.h \
     $$QR_COMMON_SOURCE_ROOT/include/multilanguage/qrlanguager.h \
     $$QR_COMMON_SOURCE_ROOT/include/multilanguage/qrtranslator.h \
+    $$QR_COMMON_SOURCE_ROOT/include/multilanguage/custom/qrcustomlanguagedicter.h \
+    $$QR_COMMON_SOURCE_ROOT/include/multilanguage/custom/qrcustomlanguagermanager.h \
     $$QR_COMMON_SOURCE_ROOT/include/qrthreadpool.h
